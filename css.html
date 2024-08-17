@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PRANAY PORTFOLIO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        main hr {
+            border: 0cap;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: rgb(170, 107, 228);
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            border-radius: 50%;
+            width: 400px;
+            height: 400px;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .about {
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            /* background: var(--snd-bg-color); */
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 4.5rem;
+            color: rgb(170, 107, 228);
+        }
+
+        .mine { 
+             text-align: center; 
+             font-size: 4.5rem; 
+             color: rgb(170, 107, 228);
+        } 
+
+        /* .about_content h2 { */
+            /* text-align: left; */
+            /* line-height: 1.2; */
+        /* } */
+
+        /* .about_content h3 { */
+            /* font-size: 2.6rem; */
+        /* } */
+
+        .about_content p { 
+             font-size: 1.6rem;  
+             margin: 2rem 0 3rem;  
+             padding: 50px 50px;
+        } 
+        .oho{
+            border: 3px solid white;
+            padding: 34px 19px;
+            margin: 130px 400px; 
+            border-radius: 23px;
+            width: 400px;
+            margin-top: auto;
+        }
+        .edu{
+            color:rgb(212, 115, 115);
+        }
+        .School{
+            font-weight: bold;
+        }
+        .my{
+            font-size: 1.6rem;   
+            margin: 10rem 10 50rem;   
+            border: 3px solid white;
+            padding: 40px 80px;
+            margin: 130px 400px; 
+            border-radius: 23px;
+            width: 400px;
+            margin-top: auto;
+           
+        } 
+        /* .yeah{ */
+            /* border: 3px solid white; */
+            /* padding: 34px 19px; */
+            /* margin: 130px 400px;  */
+            /* border-radius: 23px; */
+            /* width: 400px; */
+            /* margin-top: auto; */
+           
+        /* } */
+
+        .btn { 
+            display: inline-block; 
+            padding: 1rem 2.8rem; 
+            background:white; 
+            border-radius: 4rem; 
+            box-shadow: 0 0 1 rem var(red); 
+            font-size: 1.6rem; 
+            color: var(white); 
+            letter-spacing: .1rem; 
+            font-weight: 600; 
+            transition: .5s ease;
+            cursor: pointer;
+         } 
+
+        .btn:hover { 
+            box-shadow: none; 
+            background-color: rgb(109, 109, 218);
+        } 
+        
+        .social_media a {
+            display: inline-table;
+            /* display: block; */
+            justify-content: center;
+            align-items: center; 
+            width: 4rem;
+            height: 4rem;
+            background: transparent;
+            border: .2rem solid var(--main-color);
+            border-radius: 50%;
+            font-size: 2rem;
+            margin: 3rem 1.5rem 3rem 0; 
+            transition: .5s ease;
+            color: white;
+        }
+
+        .social_media a image {
+            color: red;
+        }
+
+        .social_media a:hover {
+            background: var(--main-color); 
+            /* background-color: rgb(109, 109, 218); */
+            color: var(--snd-bg-color); 
+            box-shadow: 0 0 1rem var(--main-color); 
+        }
+        #contactme{
+            padding: 70px 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pranay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about" class="services">About</a></li>
+                    <!-- <li><a href="#services" class="services">Services</a></li> -->
+                    <li><a href="#projects" class="projects">Projects</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi! I'm <span class="purple">Pranay</span>
+                <div> and I am an Engineer</div>
+                <div class="lolo">
+                    <a href="https://www.linkedin.com/in/pranay-arepally-7a3b732b6"><i
+                    class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/pranay_arepally?utm_source=qr&igsh=MWkxcm1idHVnNzFwcQ=="><i
+                        class="fa-brands fa-instagram"></i></a>
+                    </div>
+               <a href="./myimage/pranay resume new_compressed.pdf"><button class="btn">Download CV</button></a>
+            </div>
+            <div class="rightsection">
+                <img src="./myimage/pranupranu - Copy.jpg" alt="">
+            </div>
+            <!-- <hr> -->
+        </section>
+        <hr>
+        <!-- /about section -->
+        <section class="about" id="about">
+            <!-- <div class="about-img"> -->
+            <!-- <img src="./myimage/pranupranu - Copy.jpg" alt=""> -->
+            </div>
+            <div class="about_content">
+                <h1 class="heading">About me</h1>
+                <p>I'm specialized in Electronic and Communication Engineering(ECE). I'm proficient in Java and core
+                    Python including HTML, CSS and basic Javascript. I'm currently doing my Bachelor's of Technology
+                    from Sri Indu College of Engineering and Technology.Below are my other details about myself. </p>
+            </div>
+            <div class="oho">
+                <h2 class="edu">Education:</h2>
+                <br>
+                <h3 class="School">Sri Indu College of Engineering and Technology</h3>
+                <p>B.Tech - ECE</p>
+                <p>GPA: 7</p>
+                <br>
+                <h3 class="School">Narayana Junior College</h3>
+                <p>Intermediate-MPC</p>
+                <P>Percentage:94%</P>
+                <br>
+                <h3 class="School">Sree Aditya iit Concept School</h3>
+                <P>SSC</P>
+                <p>GPA: 9.5</p>
+               
+                <!-- services -->
+            </div>
+        </section>
+        <hr>
+        <section class="projects" id="projects">
+            <h1 class="mine">Projects</h1>
+            <br>
+            <div class="my">
+                <h2 class="edu">Portfolio Project:</h2>
+                <br>
+                <p class="yeah">I have designed a fully functional portfolio website that resembles my education, my experience , my
+                    projects, my entire details. It also provides an option to directly contact me through Gmail or
+                    other mediums.
+                    I have designed it using HTML, CSS.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <div class="contactme" id="contactme">
+            <h1 class="heading">Contact Me :</h1>
+            <div class="social_media">
+                <a href="mailto:pranayarepally03@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a>
+                <a href="https://x.com/pranay_arepally?t=b1IZuqSDsLluv0dC_ZxNIQ&s=08"><i
+                    class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="https://www.instagram.com/pranay_arepally?utm_source=qr&igsh=MWkxcm1idHVnNzFwcQ=="><i
+                        class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="https://www.linkedin.com/in/pranay-arepally-7a3b732b6"><i
+                        class="fa-brands fa-linkedin"></i>Linkedin</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
